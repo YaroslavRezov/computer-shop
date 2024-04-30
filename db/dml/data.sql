@@ -1,3 +1,21 @@
+INSERT INTO product (maker, model, type)
+VALUES
+    ('A',	1232,	'PC'),
+    ('A',	1233,	'PC'),
+    ('A',	1276,	'Printer'),
+    ('A',	1298,	'Laptop'),
+    ('A',	1401,	'Printer'),
+    ('A',	1408,	'Printer'),
+    ('A',	1752,	'Laptop'),
+    ('B',	1121,	'PC'),
+    ('B',	1750,	'Laptop'),
+    ('C',	1321,	'Laptop'),
+    ('D',	1288,	'Printer'),
+    ('D',	1433,	'Printer'),
+    ('E',	1260,	'PC'),
+    ('E',	1434,	'Printer'),
+    ('E',	2112,	'PC'),
+    ('E',	2113,	'PC');
 INSERT INTO pc (code, model, speed, ram, hd, cd, price)
 VALUES
 (1,	1232,	500,	64, 5.0,	'12x',	600.0000),
@@ -28,21 +46,3 @@ VALUES
 (4,	1401,	'n',	'Matrix', 150.0000),
 (5,	1408,	'n',	'Matrix', 270.0000),
 (6,	1288,	'n',	'Laser', 400.0000);
-INSERT INTO product (maker, model, type)
-VALUES
-('A',	1232,	'PC'),
-('A',	1233,	'PC'),
-('A',	1276,	'Printer'),
-('A',	1298,	'Laptop'),
-('A',	1401,	'Printer'),
-('A',	1408,	'Printer'),
-('A',	1752,	'Laptop'),
-('B',	1121,	'PC'),
-('B',	1750,	'Laptop'),
-('C',	1321,	'Laptop'),
-('D',	1288,	'Printer'),
-('D',	1433,	'Printer'),
-('E',	1260,	'PC'),
-('E',	1434,	'Printer'),
-('E',	2112,	'PC'),
-('E',	2113,	'PC');
